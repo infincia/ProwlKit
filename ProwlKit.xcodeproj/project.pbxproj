@@ -22,7 +22,6 @@
 		AA5AB18E14B3B6A800A0FA68 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB18B14B3B6A800A0FA68 /* XMLReader.h */; };
 		AA5AB18F14B3B6A800A0FA68 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA5AB19014B3B6A800A0FA68 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AA74451914B3EF810032113F /* README in Resources */ = {isa = PBXBuildFile; fileRef = AA74451814B3EF810032113F /* README */; };
 		AA74451F14B404B20032113F /* ProwlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AB0C814B3701A00A0FA68 /* ProwlKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +80,6 @@
 		AA5AB17514B3839000A0FA68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AA5AB18B14B3B6A800A0FA68 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = "../../../../SourceCache/Libraries/XML-to-NSDictionary/XMLReader.h"; sourceTree = "<group>"; };
 		AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = "../../../../SourceCache/Libraries/XML-to-NSDictionary/XMLReader.m"; sourceTree = "<group>"; };
-		AA74451814B3EF810032113F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../../../../SourceCache/Projects/ProwlKit/ProwlKit/README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +169,6 @@
 				AA5AB0D314B3701A00A0FA68 /* ProwlKit-Info.plist */,
 				AA5AB0D414B3701A00A0FA68 /* InfoPlist.strings */,
 				AA5AB0D714B3701A00A0FA68 /* ProwlKit-Prefix.pch */,
-				AA74451814B3EF810032113F /* README */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -308,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5AB0D614B3701A00A0FA68 /* InfoPlist.strings in Resources */,
-				AA74451914B3EF810032113F /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
