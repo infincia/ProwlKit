@@ -59,6 +59,8 @@ Create a sharedProwl instance (effectively a singleton), then you can use it to 
 
 Get the URL and token for the auth process.
 
+If you need this method you probably know what to do with it
+
     NSError *error;
     NSDictionary *dict = [prowl getTokenWithProviderKey:@"1234567890123456789012345678901234567890" error:&error];
     if (error) {
@@ -73,8 +75,9 @@ Get the URL and token for the auth process.
 
 ###Retrieve a user's API key
 
-Get the users API key (if you need this you probably know what to do with it)
+Get the users API key 
 
+If you need this method you probably know what to do with it
 
     NSError *error;
     NSString *apiKey = [prowl getAPIKeyWithProviderKey:@"1234567890123456789012345678901234567890" 
