@@ -19,6 +19,13 @@ There is a Mac test application included in the repo with its own target in the 
 
 NSErrors are optional in the following methods, just remove the error part of the method or pass nil to ignore them if you don't want/need them
 
+Create a sharedProwl instance (effectively a singleton), then you can use it to send messages from any thread and they will be queued and sent out to the Prowl API
+
+###Create a sharedProwl instance
+
+    ProwlKit *prowl = [ProwlKit sharedProwl];
+
+
 
 ###Verify an API key
 
