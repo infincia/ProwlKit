@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5AB0D614B3701A00A0FA68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5AB0D414B3701A00A0FA68 /* InfoPlist.strings */; };
+		AA5AB0DA14B3701A00A0FA68 /* ProwlKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB0D914B3701A00A0FA68 /* ProwlKit.m */; };
+		AA5AB12714B379DC00A0FA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AB12614B379DC00A0FA68 /* Foundation.framework */; };
+		AA5AB13114B37A3600A0FA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AB12614B379DC00A0FA68 /* Foundation.framework */; };
+		AA5AB13214B37A3D00A0FA68 /* ProwlKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB0D914B3701A00A0FA68 /* ProwlKit.m */; };
+		AA5AB16414B3839000A0FA68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AB0CB14B3701A00A0FA68 /* Cocoa.framework */; };
+		AA5AB16A14B3839000A0FA68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5AB16814B3839000A0FA68 /* InfoPlist.strings */; };
+		AA5AB16C14B3839000A0FA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB16B14B3839000A0FA68 /* main.m */; };
+		AA5AB17314B3839000A0FA68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB17214B3839000A0FA68 /* AppDelegate.m */; };
+		AA5AB17614B3839000A0FA68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5AB17414B3839000A0FA68 /* MainMenu.xib */; };
+		AA5AB17E14B383AC00A0FA68 /* ProwlKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA5AB0C814B3701A00A0FA68 /* ProwlKit.framework */; };
+		AA5AB18D14B3B6A800A0FA68 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB18B14B3B6A800A0FA68 /* XMLReader.h */; };
+		AA5AB18E14B3B6A800A0FA68 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5AB18B14B3B6A800A0FA68 /* XMLReader.h */; };
+		AA5AB18F14B3B6A800A0FA68 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA5AB19014B3B6A800A0FA68 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA74451914B3EF810032113F /* README in Resources */ = {isa = PBXBuildFile; fileRef = AA74451814B3EF810032113F /* README */; };
+		AA74451F14B404B20032113F /* ProwlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AB0C814B3701A00A0FA68 /* ProwlKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5AB17A14B3839600A0FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5AB0BE14B3701A00A0FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5AB0C714B3701A00A0FA68;
+			remoteInfo = ProwlKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA5AB13514B37A5000A0FA68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB17D14B383A000A0FA68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA5AB17E14B383AC00A0FA68 /* ProwlKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA5AB0C814B3701A00A0FA68 /* ProwlKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProwlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5AB0CB14B3701A00A0FA68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA5AB0CE14B3701A00A0FA68 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA5AB0CF14B3701A00A0FA68 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA5AB0D014B3701A00A0FA68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5AB0D314B3701A00A0FA68 /* ProwlKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProwlKit-Info.plist"; sourceTree = "<group>"; };
+		AA5AB0D514B3701A00A0FA68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5AB0D714B3701A00A0FA68 /* ProwlKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProwlKit-Prefix.pch"; sourceTree = "<group>"; };
+		AA5AB0D814B3701A00A0FA68 /* ProwlKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProwlKit.h; sourceTree = "<group>"; };
+		AA5AB0D914B3701A00A0FA68 /* ProwlKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProwlKit.m; sourceTree = "<group>"; };
+		AA5AB12514B379DC00A0FA68 /* liblibProwlKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibProwlKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5AB12614B379DC00A0FA68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5AB16214B3839000A0FA68 /* ProwlTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProwlTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5AB16714B3839000A0FA68 /* ProwlTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProwlTest-Info.plist"; sourceTree = "<group>"; };
+		AA5AB16914B3839000A0FA68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5AB16B14B3839000A0FA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5AB16D14B3839000A0FA68 /* ProwlTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProwlTest-Prefix.pch"; sourceTree = "<group>"; };
+		AA5AB17114B3839000A0FA68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5AB17214B3839000A0FA68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5AB17514B3839000A0FA68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA5AB18B14B3B6A800A0FA68 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = "../../../../SourceCache/Libraries/XML-to-NSDictionary/XMLReader.h"; sourceTree = "<group>"; };
+		AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = "../../../../SourceCache/Libraries/XML-to-NSDictionary/XMLReader.m"; sourceTree = "<group>"; };
+		AA74451814B3EF810032113F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../../../../SourceCache/Projects/ProwlKit/ProwlKit/README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5AB0C414B3701A00A0FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB13114B37A3600A0FA68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB12214B379DC00A0FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB12714B379DC00A0FA68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB15F14B3839000A0FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB16414B3839000A0FA68 /* Cocoa.framework in Frameworks */,
+				AA74451F14B404B20032113F /* ProwlKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5AB0BC14B3701A00A0FA68 = {
+			isa = PBXGroup;
+			children = (
+				AA5AB0D114B3701A00A0FA68 /* ProwlKit */,
+				AA5AB16514B3839000A0FA68 /* ProwlTest */,
+				AA5AB0CA14B3701A00A0FA68 /* Frameworks */,
+				AA5AB0C914B3701A00A0FA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5AB0C914B3701A00A0FA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB0C814B3701A00A0FA68 /* ProwlKit.framework */,
+				AA5AB12514B379DC00A0FA68 /* liblibProwlKit.a */,
+				AA5AB16214B3839000A0FA68 /* ProwlTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5AB0CA14B3701A00A0FA68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB0CB14B3701A00A0FA68 /* Cocoa.framework */,
+				AA5AB12614B379DC00A0FA68 /* Foundation.framework */,
+				AA5AB0CD14B3701A00A0FA68 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5AB0CD14B3701A00A0FA68 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB0CE14B3701A00A0FA68 /* AppKit.framework */,
+				AA5AB0CF14B3701A00A0FA68 /* CoreData.framework */,
+				AA5AB0D014B3701A00A0FA68 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA5AB0D114B3701A00A0FA68 /* ProwlKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB18B14B3B6A800A0FA68 /* XMLReader.h */,
+				AA5AB18C14B3B6A800A0FA68 /* XMLReader.m */,
+				AA5AB0D814B3701A00A0FA68 /* ProwlKit.h */,
+				AA5AB0D914B3701A00A0FA68 /* ProwlKit.m */,
+				AA5AB0D214B3701A00A0FA68 /* Supporting Files */,
+			);
+			path = ProwlKit;
+			sourceTree = "<group>";
+		};
+		AA5AB0D214B3701A00A0FA68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB0D314B3701A00A0FA68 /* ProwlKit-Info.plist */,
+				AA5AB0D414B3701A00A0FA68 /* InfoPlist.strings */,
+				AA5AB0D714B3701A00A0FA68 /* ProwlKit-Prefix.pch */,
+				AA74451814B3EF810032113F /* README */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5AB16514B3839000A0FA68 /* ProwlTest */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB17114B3839000A0FA68 /* AppDelegate.h */,
+				AA5AB17214B3839000A0FA68 /* AppDelegate.m */,
+				AA5AB17414B3839000A0FA68 /* MainMenu.xib */,
+				AA5AB16614B3839000A0FA68 /* Supporting Files */,
+			);
+			path = ProwlTest;
+			sourceTree = "<group>";
+		};
+		AA5AB16614B3839000A0FA68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AB16714B3839000A0FA68 /* ProwlTest-Info.plist */,
+				AA5AB16814B3839000A0FA68 /* InfoPlist.strings */,
+				AA5AB16B14B3839000A0FA68 /* main.m */,
+				AA5AB16D14B3839000A0FA68 /* ProwlTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA5AB0C514B3701A00A0FA68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB18D14B3B6A800A0FA68 /* XMLReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB12314B379DC00A0FA68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB18E14B3B6A800A0FA68 /* XMLReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA5AB0C714B3701A00A0FA68 /* ProwlKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5AB0DD14B3701A00A0FA68 /* Build configuration list for PBXNativeTarget "ProwlKit" */;
+			buildPhases = (
+				AA5AB0C314B3701A00A0FA68 /* Sources */,
+				AA5AB0C414B3701A00A0FA68 /* Frameworks */,
+				AA5AB0C514B3701A00A0FA68 /* Headers */,
+				AA5AB0C614B3701A00A0FA68 /* Resources */,
+				AA5AB13514B37A5000A0FA68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProwlKit;
+			productName = ProwlKit;
+			productReference = AA5AB0C814B3701A00A0FA68 /* ProwlKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA5AB12414B379DC00A0FA68 /* libProwlKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5AB12E14B379DC00A0FA68 /* Build configuration list for PBXNativeTarget "libProwlKit" */;
+			buildPhases = (
+				AA5AB12114B379DC00A0FA68 /* Sources */,
+				AA5AB12214B379DC00A0FA68 /* Frameworks */,
+				AA5AB12314B379DC00A0FA68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libProwlKit;
+			productName = libProwlKit;
+			productReference = AA5AB12514B379DC00A0FA68 /* liblibProwlKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA5AB16114B3839000A0FA68 /* ProwlTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5AB17714B3839000A0FA68 /* Build configuration list for PBXNativeTarget "ProwlTest" */;
+			buildPhases = (
+				AA5AB15E14B3839000A0FA68 /* Sources */,
+				AA5AB15F14B3839000A0FA68 /* Frameworks */,
+				AA5AB16014B3839000A0FA68 /* Resources */,
+				AA5AB17D14B383A000A0FA68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5AB17B14B3839600A0FA68 /* PBXTargetDependency */,
+			);
+			name = ProwlTest;
+			productName = ProwlTest;
+			productReference = AA5AB16214B3839000A0FA68 /* ProwlTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5AB0BE14B3701A00A0FA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AA5AB0C114B3701A00A0FA68 /* Build configuration list for PBXProject "ProwlKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5AB0BC14B3701A00A0FA68;
+			productRefGroup = AA5AB0C914B3701A00A0FA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5AB0C714B3701A00A0FA68 /* ProwlKit */,
+				AA5AB12414B379DC00A0FA68 /* libProwlKit */,
+				AA5AB16114B3839000A0FA68 /* ProwlTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5AB0C614B3701A00A0FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB0D614B3701A00A0FA68 /* InfoPlist.strings in Resources */,
+				AA74451914B3EF810032113F /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB16014B3839000A0FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB16A14B3839000A0FA68 /* InfoPlist.strings in Resources */,
+				AA5AB17614B3839000A0FA68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5AB0C314B3701A00A0FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB0DA14B3701A00A0FA68 /* ProwlKit.m in Sources */,
+				AA5AB18F14B3B6A800A0FA68 /* XMLReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB12114B379DC00A0FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB13214B37A3D00A0FA68 /* ProwlKit.m in Sources */,
+				AA5AB19014B3B6A800A0FA68 /* XMLReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5AB15E14B3839000A0FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AB16C14B3839000A0FA68 /* main.m in Sources */,
+				AA5AB17314B3839000A0FA68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5AB17B14B3839600A0FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5AB0C714B3701A00A0FA68 /* ProwlKit */;
+			targetProxy = AA5AB17A14B3839600A0FA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5AB0D414B3701A00A0FA68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5AB0D514B3701A00A0FA68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA5AB16814B3839000A0FA68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5AB16914B3839000A0FA68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA5AB17414B3839000A0FA68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5AB17514B3839000A0FA68 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5AB0DB14B3701A00A0FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA5AB0DC14B3701A00A0FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA5AB0DE14B3701A00A0FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProwlKit/ProwlKit-Prefix.pch";
+				INFOPLIST_FILE = "ProwlKit/ProwlKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AA5AB0DF14B3701A00A0FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProwlKit/ProwlKit-Prefix.pch";
+				INFOPLIST_FILE = "ProwlKit/ProwlKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		AA5AB12F14B379DC00A0FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/libProwlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProwlKit/ProwlKit-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA5AB13014B379DC00A0FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/libProwlKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProwlKit/ProwlKit-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5AB17814B3839000A0FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProwlTest/ProwlTest-Prefix.pch";
+				INFOPLIST_FILE = "ProwlTest/ProwlTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA5AB17914B3839000A0FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProwlTest/ProwlTest-Prefix.pch";
+				INFOPLIST_FILE = "ProwlTest/ProwlTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5AB0C114B3701A00A0FA68 /* Build configuration list for PBXProject "ProwlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5AB0DB14B3701A00A0FA68 /* Debug */,
+				AA5AB0DC14B3701A00A0FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5AB0DD14B3701A00A0FA68 /* Build configuration list for PBXNativeTarget "ProwlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5AB0DE14B3701A00A0FA68 /* Debug */,
+				AA5AB0DF14B3701A00A0FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5AB12E14B379DC00A0FA68 /* Build configuration list for PBXNativeTarget "libProwlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5AB12F14B379DC00A0FA68 /* Debug */,
+				AA5AB13014B379DC00A0FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5AB17714B3839000A0FA68 /* Build configuration list for PBXNativeTarget "ProwlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5AB17814B3839000A0FA68 /* Debug */,
+				AA5AB17914B3839000A0FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5AB0BE14B3701A00A0FA68 /* Project object */;
+}

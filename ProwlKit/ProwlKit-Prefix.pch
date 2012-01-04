@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ProwlKit' target in the 'ProwlKit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
