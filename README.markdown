@@ -2,9 +2,9 @@ ProwlKit
 -----------
 
 
-ProwlKit is a simple Objective-C wrapper with convenience methods for working with the (Prowl)[http://prowlapp.com] API.
+ProwlKit is a simple Objective-C wrapper with convenience methods for working with the [Prowl](http://prowlapp.com) API.
 
-There is only one class, ProwlKit, and it only has one dependency: (XMLReader)[https://github.com/bcaccinolo/XML-to-NSDictionary], you'll need to download that and put it in the right spot before compiling. 
+There is only one class, ProwlKit, and it only has one dependency: [XMLReader](https://github.com/bcaccinolo/XML-to-NSDictionary), you'll need to download that and put it in the right spot before compiling. 
 
 The framework uses a GCD serial queue to synchronize access, so it should be thread-safe
 
@@ -22,8 +22,8 @@ NSErrors are optional in the following methods, just remove the error part of th
 
 
 ####Verify an API key
-
-    BOOL success = [prowl verifyAPIKey:@"1234567890123456789012345678901234567890" error:nil]
+    NSError *error;
+    BOOL success = [prowl verifyAPIKey:@"1234567890123456789012345678901234567890" error:&error]
     if (error) {
         NSLog(@"Error: %@",[error localizedDescription]);
     }
